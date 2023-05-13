@@ -1,0 +1,17 @@
+
+ .nav-link {
+    color: white;
+   
+  }
+  .nav-link.active {
+    color: #FFCA47;
+  }
+
+  .tickets {
+    color: rgb(106, 243, 106);
+ }
+
+ .dotted {
+  border-bottom:1px dotted #9999CC;
+  text-decoration:none;
+ }
