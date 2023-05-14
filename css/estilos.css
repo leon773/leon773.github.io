@@ -15,3 +15,23 @@
   border-bottom:1px dotted #9999CC;
   text-decoration:none;
  }
+
+ #textoFlot1 {
+  position: relative;
+  text-align: end;
+  font-size: 1em;
+  top: 200px;
+ 
+
+}
+ #textoFlot2 {
+  position: relative;
+  text-align: end;
+  font-size: 1em;
+  top: 240px;
+ }
+
+
+
+
+
