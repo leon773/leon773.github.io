@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>ticket</title>
+</head>
+<body>
+    <section id="ticket">
+       
+
+        <div class="container h-100">
+    
+            <div class="row row-cols-1 row-cols-md-3 g-2">
+    
+                <div class="col">
+    
+                    <div class="card-body card text-center card border-primary">
+                        <h5 class="card-title">Estudiante</h5>
+                        <p class="card-text">Tienen un descuento</p>
+                        <p class="card-text">80%</p>
+                        <p class="card-text">Valor con descuento = $40</p>
+                        <p class="card-text">* Presentar documentación</p>
+                    </div>
+    
+                </div>
+                <div class="col">
+    
+                    <div class="card-body card text-center card border-primary">
+                        <h5 class="card-title">Trainee</h5>
+                        <p class="card-text">Tienen un descuento</p>
+                        <p class="card-text">50%</p>
+                        <p class="card-text">Valor con descuento = $100</p>
+                        <p class="card-text">* Presentar documentación</p>
+                    </div>
+    
+    
+                </div>
+                <div class="col">
+    
+                    <div class="card-body card text-center card border-primary">
+                        <h5 class="card-title">Junior</h5>
+                        <p class="card-text">Tienen un descuento</p>
+                        <p class="card-text">15%</p>
+                        <p class="card-text">Valor con descuento = $170</p>
+                        <p class="card-text">* Presentar documentación</p>
+                    </div>
+    
+    
+                </div>
+            </div>
+
+            <h6 class="text-center">VENTA</h6>
+            <h2 class="text-center">VALOR GENERAL DE TICKET $200</h2>
+
+    </section>
+
+    <section id="formularioTicket">
+        
+        <p class="h6 text-center"><small>Anótate como horador para dar una</small></p>
+        <p></p>
+        <div class="container fluid">
+            <div class="row">
+                <div class="form-group col">
+                    <input id="nombre" type="text" class="form-control" placeholder="nombre" aria-label="nombre">
+                    <p id="errorNombre"></p>
+                </div>
+                <div class="form-group col">
+                    <input id="apellido" type="text" class="form-control" placeholder="apellido" aria-label="apellido">
+                    <p id="errorApellido"></p>
+                </div>
+            </div>
+           <p></p>
+            <div class="row">
+                <div class="form-group col">
+                    <input id="correo" type="email" class="form-control" placeholder="correo" aria-label="correo">
+                    <p id="errorCorreo"></p>
+                </div>
+            </div>
+
+            
+              <p></p>
+            <div class="row">
+
+                <div class="form-group col">
+                    <label class="form-label">Cantidad</label>
+                    <input  id="cantidad" type="number" class="form-control" placeholder="Cantidad de entradas">
+                </div>
+            
+                <div class="form-group col">
+                    <label class="form-label">Categoria</label>
+                    <select id="categoria" class="form-select" aria-label="Default select example" placeholder="Seleccione descuento">
+                        <option value="1">Estudiante</option>
+                        <option value="2">Trainee</option>
+                        <option value="3">Junior</option>
+                        <option value="4">General</option>
+                    </select>
+                </div>
+              <p></p>
+            </div>
+
+            <div>
+                <p id="total" class="col bg-info p-2 text-bold"><span>Total a Pagar: $ </span></p>
+            </div>
+
+            </div>
+
+            <p></p>
+
+            
+           <div class="row">
+                <div class="form-group col d-grid gap-2">
+                    <button id="borrar" type="reset" class="btn btn-success">Borrar</button>
+                </div>
+                <div class="form-group col d-grid gap-2">
+                    <button id="botonCalcular" type="submit" class="btn btn-success">Calcular Total</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+ <!--Barra de navegación footer-->
+ <footer class="py-2 my-1">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-botton bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavb"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavb">
+                <ul class="nav mx-auto">
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="#..1">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="#..2">Contáctanos</a>
+                    </li>
+                    <li class="nav-item col-md-1">
+                        <a class="nav-link" href="#..3">Prensa</a>
+                    </li>
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="#s..4">Conferencia</a>
+                    </li>
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="#s..5">Términos y condiciones</a>
+                    </li>
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="#s..6">Privacidad</a>
+                    </li>
+                    <li class="nav-item col-md-1">
+                        <a class="nav-link" href="#s..7">Estudiantes</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</footer>
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/myscripts.js"></script>
+
+</body>
+</html>
